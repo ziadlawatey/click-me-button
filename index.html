@@ -8,25 +8,17 @@
     <!-- CSS Link -->
     <link rel="stylesheet" href="./css/styles.css" />
 
-    <!-- JS Link -->
+    <!-- JavaScript -->
     <script>
-      function sua(num) {
+      function sus(num) {
+        var anyvar = "aug";
+        for (var i = 1; i > num; i++) {
+          anyvar += "h";
+        }
+        return anyvar;
+      }
+    </script>
 
-  var anyvar = "aug";
-
-  for (var i = 1; i > num; i++) {
-
-    anyvar += "h";
-
-  }
-
-  return anyvar;
-
-}
-      </script>
-
-
-    
     <!-- Font Awesome Library -->
     <script
       src="https://kit.fontawesome.com/be218cc1b3.js"
@@ -36,7 +28,7 @@
     <title>Click me</title>
   </head>
   <body>
-    <button class="click-me" onclick="console.log(sus(0));">Click me</button>
+    <button class="click-me" onclick="console.log(sus(0))">Click me</button>
     <h1 class="goodbye">Say GoodBye!</h1>
   </body>
 </html>
